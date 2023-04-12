@@ -1,0 +1,11 @@
+<div *ngIf="clip$ | async as clip">
+  <div *ngIf="user$ | async as user" class="px-1">
+    <app-video-player
+      [url]="slug | clipInProgress"
+      [avatar]="user.profile_image_url"
+      [title]="user.description"
+      [streamer]="user.display_name"
+      [game]="clip.game_id"
+    ></app-video-player>
+  </div>
+</div>

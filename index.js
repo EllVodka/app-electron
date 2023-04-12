@@ -6,7 +6,8 @@ const createWindow = () => {
         height: 600
     })
 
-    win.loadFile('index.html')
+    win.setMenu(null)
+    win.loadFile('dist/angular-twitch/index.html')
 }
 
 app.whenReady().then(() => {
@@ -15,4 +16,4 @@ app.whenReady().then(() => {
 
 app.on('window-all-closed', () => {
     if (process.platform !== 'darwin') app.quit()
-  })
+})
