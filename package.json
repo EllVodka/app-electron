@@ -1,0 +1,23 @@
+{
+  "name": "app-electron",
+  "version": "1.0.0",
+  "description": "developpement d'un application tah les oufs avec electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EllVodka/app-electron.git"
+  },
+  "author": "ellvokda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EllVodka/app-electron/issues"
+  },
+  "homepage": "https://github.com/EllVodka/app-electron#readme",
+  "devDependencies": {
+    "electron": "^24.1.0"
+  }
+}
